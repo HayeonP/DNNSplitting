@@ -1,0 +1,20 @@
+task_set_list_dir_path: task_set_list/utilization
+skip_utilizations: []
+
+result_dir_prefix:
+plot_output_path: schedulability_ratio_by_utilization.png
+profiling_count_boxplot_output_path: profiling_count_boxplot.png
+show_plot: false
+
+enable_RTA_SS_single: true
+enable_RTA_SS_max: true
+
+enable_RTA_SS_tol: true
+enable_RTA_SS_tol_fb: true
+enable_RTA_SS_tol_fb_early: true
+enable_RTA_UNI_tol_fb: true
+enable_RTA_UNI_opt: true
+enable_RTA_UNI_heu: true
+enable_RTA_SS_opt: true
+enable_RTA_SS_heu: true
+

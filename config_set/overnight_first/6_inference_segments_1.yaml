@@ -1,0 +1,14 @@
+output_dir: task_set_list/utilization
+n_task_sets: 100
+
+number_of_cpu_range: [4, 4]
+utilization_per_cpu_range: [0.05, 0.25]
+utilization_step: 0.05
+number_of_tasks_per_cpu_range: [1, 3]
+period_range: [1000, 10000]
+G_ratio_range: [0.1, 0.8]
+number_of_inference_segments_range: [1, 1]
+max_block_count_range: [10, 100]
+G_utilization_threshold_range: [1.0, 1.0]
+
+per_splitting_overhead: 5

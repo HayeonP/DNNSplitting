@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+
+.claude/
+.cluade/
+
+result/
+report/
+legacy/
+overnight_runs/
+trace/
+task_set_list/
+prompt.txt
